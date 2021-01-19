@@ -1,0 +1,362 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>HTML5 3D Rubiks Super Cube Game - a super 3d cube game</title>
+
+	<meta name="description" content="this is very beautiful 3d cube game">
+	<meta name="author" content="subrominda">
+	<meta name="copyright" content="subrominda">
+	<meta name="generator" content="Documenter v2.0 https://evp.to/documenter">
+	<meta name="date" content="2020-07-04T00:00:00+02:00">
+
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+
+	<style>
+		html{background-color:#E0E4CC;color:#3D220C;}
+		::-moz-selection{background:#F38630;color:#FBFFE4;}
+		::selection{background:#F38630;color:#FBFFE4;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#F38630;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #B9F2EF, #9CCCC9);
+			  background-image: -ms-linear-gradient(top, #B9F2EF, #9CCCC9);
+			  background-image: -webkit-gradient(linear, 0 0, 0 B9F2EF%, from(#A7DBD8), to(#9CCCC9));
+			  background-image: -webkit-linear-gradient(top, #B9F2EF, #9CCCC9);
+			  background-image: -o-linear-gradient(top, #B9F2EF, #9CCCC9);
+			  background-image: linear-gradient(top, #B9F2EF, #9CCCC9);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B9F2EF', endColorstr='#9CCCC9', GradientType=0);
+			  border-color: #9CCCC9 #9CCCC9 #bfbfbf;
+			  color:#3D220C;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #B9F2EF #B9F2EF #bfbfbf;
+		  background-color: #9CCCC9;
+		}
+		hr{border-top:1px solid #BEC2AD;border-bottom:1px solid #E9EDD4;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#A7DBD8;color:#3D220C;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #B9F2EF;-moz-text-shadow:1px 1px 0px #B9F2EF;text-shadow:1px 1px 0px #B9F2EF;}
+		#documenter_sidebar ul{border-top:1px solid #9CCCC9;}
+		#documenter_sidebar ul a{border-top:1px solid #B9F2EF;border-bottom:1px solid #9CCCC9;color:#3D220C;}
+		#documenter_sidebar ul a:hover{background:#F38630;color:#FBFFE4;border-top:1px solid #F38630;}
+		#documenter_sidebar ul a.current{background:#F38630;color:#FBFFE4;border-top:1px solid #F38630;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+
+</head>
+<body class="documenter-project-html5-3d-rubiks-super-cube-game">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#how_to_play" title="How to Play ?">How to Play ?</a></li>
+			<li><a href="#customization" title="Customization">Customization</a>
+				<ul>
+					<li><a href="#customization_strong_strong">------------------------------------------------------------------------------------------------------------------------------------</a>
+				</ul>
+			</li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright subrominda 2020<br>
+		made with the <a href="https://evp.to/documenter">Documenter v2.0</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>HTML5 3D Rubiks Super Cube Game</h1>
+	<h2>a super 3d cube game</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 07/04/2020</li>
+	<li>latest update: 07/04/2020</li>
+	<li>by: subrominda</li>
+	
+	<li>email: <a href="mailto:&#115;&#117;&#98;&#114;&#111;&#109;&#105;&#110;&#100;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#117;&#98;&#114;&#111;&#109;&#105;&#110;&#100;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+
+	<section id="how_to_play">
+	<div class="page-header"><h3>How to Play ?</h3><hr class="notop"></div>
+<h2>
+	<strong>How to play ?</strong></h2>
+<p>
+	<strong>This game contains lots of&nbsp; puzzle soving methods.</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<ul style="margin: 0px; padding-right: 0px; padding-left: 0px; box-sizing: border-box; list-style: none; color: rgb(0, 0, 0); font-family: Rubik, sans-serif; font-size: 18px; letter-spacing: -0.4px;">
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-1" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 1- Get to know your Rubik&#39;s cube</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-2" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 2 - Solve the white cross</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-3" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 3 - Solve the white corners</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-4" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 4 - Solve the middle layer</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-5" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 5 - Solve the top face</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		<a href="https://www.rubiks.com/blog/how-to-solve-the-rubiks-cube-stage-6" style="margin: 0px; padding: 0px; box-sizing: border-box; background-color: transparent; color: rgb(0, 0, 0); text-decoration-line: none;">Stage 6 - Solve the final layer</a></li>
+	<li style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+		and many more methods to solve game puzzle.</li>
+</ul>
+<p style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+	&nbsp;</p>
+<p style="margin: 0px; padding: 0px 0px 0px 20px; box-sizing: border-box; font-size: 16px; position: relative; line-height: 1.31;">
+	You can set easy level to extreme hard level</p>
+</section>
+<section id="customization">
+	<div class="page-header"><h3>Customization</h3><hr class="notop"></div>
+<h1>
+	Customization:</h1>
+<p>
+	If you want cutomize in game then open <strong><em>index.html&nbsp;</em></strong> file</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Change title&nbsp;:</strong></p>
+<pre class="prettyprint lang-php linenums">
+ &lt;title&gt;Super Cube&lt;/title&gt; ( Inter your text in title tag )</pre>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Change display title&nbsp;</strong>open&nbsp;<strong><em>index.html&nbsp;</em></strong>&nbsp;file</p>
+<pre class="prettyprint lang-php linenums">
+ &lt;div class=&quot;ui__texts&quot;&gt;
+
+    &lt;h1 class=&quot;text text--title&quot;&gt;
+
+      &lt;span&gt;SUPER&lt;/span&gt;  <em>replace your text</em>
+
+      &lt;span&gt;CUBE&lt;/span&gt;    <em>replace your text</em>
+
+
+    &lt;/h1&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Change Color scheme :&nbsp;</strong>open&nbsp;<strong><em>index.html&nbsp;</em></strong>&nbsp;file</p>
+<div class="alert alert-info">
+	&lt;div class=&quot;ui__prefs&quot;&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &nbsp; &lt;range name=&quot;size&quot; title=&quot;Cube Size&quot; list=&quot;2,3,4,5&quot;&gt;&lt;/range&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &nbsp; &lt;range name=&quot;flip&quot; title=&quot;Flip Type&quot; list=&quot;Swift&amp;nbsp;,Smooth,Bounce&quot;&gt;&lt;/range&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &nbsp; &lt;range name=&quot;scramble&quot; title=&quot;Scramble Length&quot; list=&quot;20,25,30&quot;&gt;&lt;/range&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &nbsp; &lt;range name=&quot;fov&quot; title=&quot;Camera Angle&quot; list=&quot;Ortographic,Perspective&quot;&gt;&lt;/range&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &nbsp; &lt;range name=&quot;theme&quot; title=&quot;Color Scheme&quot; list=&quot;Cube,Erno,Dust,Camo,Rain&quot;&gt;&lt;/range&gt;</div>
+<div class="alert alert-info">
+	&nbsp; &lt;/div&gt;</div>
+<pre class="prettyprint lang-plain linenums">
+</pre>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Change Scoreboard : </strong>open&nbsp;<strong><em>index.html&nbsp;</em></strong>&nbsp;file</p>
+<pre class="prettyprint lang-js linenums">
+&lt;div class=&quot;ui__stats&quot;&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;cube-size&quot;&gt;
+
+      &lt;i&gt;Cube:&lt;/i&gt;&lt;b&gt;3x3x3&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;total-solves&quot;&gt;
+
+      &lt;i&gt;Total solves:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;best-time&quot;&gt;
+
+      &lt;i&gt;Best time:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;worst-time&quot;&gt;
+
+      &lt;i&gt;Worst time:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;average-5&quot;&gt;
+
+      &lt;i&gt;Average of 5:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;average-12&quot;&gt;
+
+      &lt;i&gt;Average of 12:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;stats&quot; name=&quot;average-25&quot;&gt;
+
+      &lt;i&gt;Average of 25:&lt;/i&gt;&lt;b&gt;-&lt;/b&gt;
+
+    &lt;/div&gt;
+
+  &lt;/div&gt;</pre>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h2>
+	<strong>------------------------------------------------------------------------------------------</strong></h2>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Change conset icon : </strong>open<em><strong> script.js </strong></em>file and search</p>
+<div class="alert">
+	const Icons = new IconsConverter( {</div>
+<div class="alert">
+	&nbsp;</div>
+<div class="alert">
+	&nbsp; icons: {</div>
+<div class="alert">
+	&nbsp; &nbsp; settings: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 512 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; back: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 512 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path transform=&quot;translate(512, 0) scale(-1,1)&quot; fill=&quot;currentColor&quot; d=&quot;M503.691 189.836L327.687 37.851C312.281 24.546 288 35.347 288 56.015v80.053C127.371 137.907 0 170.1 0 322.326c0 61.441 39.581 122.309 83.333 154.132 13.653 9.931 33.111-2.533 28.077-18.631C66.066 312.814 132.917 274.316 288 272.085V360c0 20.7 24.3 31.453 39.687 18.164l176.004-152c11.071-9.562 11.086-26.753 0-36.328z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; trophy: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 576 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 66.5 77.9 131.7 171.9 142.4C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6C498.4 275.6 576 210.3 576 144V88c0-13.3-10.7-24-24-24zM64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-47.5-16.4-77-49.9-77-70.2zm448 0c0 20.2-29.4 53.8-77 70.2 7-25 11.8-53.6 12.8-86.2H512v16zm-127.3 4.7l-39.6 38.6 9.4 54.6c1.7 9.8-8.7 17.2-17.4 12.6l-49-25.8-49 25.8c-8.8 4.6-19.1-2.9-17.4-12.6l9.4-54.6-39.6-38.6c-7.1-6.9-3.2-19 6.7-20.5l54.8-8 24.5-49.6c4.4-8.9 17.1-8.9 21.5 0l24.5 49.6 54.8 8c9.6 1.5 13.5 13.6 6.4 20.5z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; cancel: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 352 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; theme: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 512 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z&quot;/&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; reset: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 512 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M370.72 133.28C339.458 104.008 298.888 87.962 255.848 88c-77.458.068-144.328 53.178-162.791 126.85-1.344 5.363-6.122 9.15-11.651 9.15H24.103c-7.498 0-13.194-6.807-11.807-14.176C33.933 94.924 134.813 8 256 8c66.448 0 126.791 26.136 171.315 68.685L463.03 40.97C478.149 25.851 504 36.559 504 57.941V192c0 13.255-10.745 24-24 24H345.941c-21.382 0-32.09-25.851-16.971-40.971l41.75-41.749zM32 296h134.059c21.382 0 32.09 25.851 16.971 40.971l-41.75 41.75c31.262 29.273 71.835 45.319 114.876 45.28 77.418-.07 144.315-53.144 162.787-126.849 1.344-5.363 6.122-9.15 11.651-9.15h57.304c7.498 0 13.194 6.807 11.807 14.176C478.067 417.076 377.187 504 256 504c-66.448 0-126.791-26.136-171.315-68.685L48.97 471.03C33.851 486.149 8 475.441 8 454.059V320c0-13.255 10.745-24 24-24z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; &nbsp; trash: {</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; viewbox: &#39;0 0 448 512&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; &nbsp; content: &#39;&lt;path fill=&quot;currentColor&quot; d=&quot;M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z&quot; /&gt;&#39;,</div>
+<div class="alert">
+	&nbsp; &nbsp; },</div>
+<div class="alert">
+	&nbsp; },</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h4 id="customization_strong_strong"><strong>------------------------------------------------------------------------------------------------------------------------------------</strong></h4>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Change Background color :</strong> open <em><strong>style.css</strong></em> file and find&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	you can replace color code&nbsp; <em><strong>#d1d5db</strong></em> to with your color code</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="prettyprint lang-css linenums">
+.ui__background {
+
+  z-index: 1;
+
+  transition: background 500ms ease;
+
+  background: #d1d5db;</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<h2>
+	<strong>Hey there we are proving full support for this game.</strong></h2>
+<ul>
+	<li>
+		<h2>
+			In case if you stuck somewhere in code in this game then please email us <em><strong>&#115;&#117;&#98;&#114;&#111;&#109;&#105;&#110;&#100;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</strong></em></h2>
+	</li>
+</ul>
+<h2>
+	we will be happy to assist you :)&nbsp;</h2>
+</section>
+
+	</div>
+</body>
+</html>
